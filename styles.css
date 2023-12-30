@@ -1,0 +1,60 @@
+body {
+background-image: url(./img/ocean-3605547_1280.jpg);
+background-size: cover;
+
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 72px;
+    font-weight: bold;
+    background: linear-gradient( 45deg, #ffdf8f, #faf3dd, #7effe5, #71e6f8, #5e6472);
+    background-size: 40%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 44px;
+    font-weight: bold;
+    background: linear-gradient( 45deg, #ffa69e, #faf3dd, #b8f2e6, #aed9e0, #5e6472);
+    background-size: 5%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  
+  .user-list {
+    color: white;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    
+  }
+
+  .post-list{
+    color: #000000;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #949191, #aeabac, #c8c7c7, #e3e3e3, #ffffff); 
+    width: 50%;
+    margin: auto;
+     border: 1px solid rgb(0, 0, 0);
+     box-shadow: 10px 10px 5px #383838;
+  }
+  
+  .user-list {
+    margin-bottom: 20px;
+  }
+  
+  li {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #888888;
+  }
+  
